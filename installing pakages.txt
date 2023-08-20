@@ -1,9 +1,8 @@
-Microsoft Windows [Version 10.0.22621.2134]
-(c) Microsoft Corporation. All rights reserved.
-
 C:\Users\bhatt>node
 Welcome to Node.js v18.14.2.
 Type ".help" for more information.
+
+
 > console.log("hey");
 hey
 undefined
@@ -19,20 +18,23 @@ undefined
 110
 > a*b
 1000
-> ccccccccccccccc
-> cls
-Uncaught ReferenceError: cls is not defined
->
-(To exit, press Ctrl+C again or Ctrl+D or type .exit)
-> .exit
+
+
+> .exit    (Exit command)
 
 C:\Users\bhatt>cd desktop
 
-C:\Users\bhatt\Desktop>mkdir nodejs
+C:\Users\bhatt\Desktop>mkdir nodejs  (make directory named nodejs)
 
-C:\Users\bhatt\Desktop>cd nodejs
+C:\Users\bhatt\Desktop>cd nodejs  (Move to node js)
 
-C:\Users\bhatt\Desktop\nodejs>npm init
+
+
+
+C:\Users\bhatt\Desktop\nodejs>npm init  (initializing the project)
+
+
+
 This utility will walk you through creating a package.json file.
 It only covers the most common items, and tries to guess sensible defaults.
 
@@ -43,31 +45,10 @@ Use `npm install <pkg>` afterwards to install a package and
 save it as a dependency in the package.json file.
 
 Press ^C at any time to quit.
-package name: (nodejs) npm WARN init canceled
+package name: (nodejs) Node js   (pakage name creating but pakage name is't consist of gaps so i used another one) 
 
-C:\Users\bhatt\Desktop\nodejs>npn init
-'npn' is not recognized as an internal or external command,
-operable program or batch file.
 
-C:\Users\bhatt\Desktop\nodejs>cd nodejs
-The system cannot find the path specified.
-
-C:\Users\bhatt\Desktop\nodejs>npm init
-This utility will walk you through creating a package.json file.
-It only covers the most common items, and tries to guess sensible defaults.
-
-See `npm help init` for definitive documentation on these fields
-and exactly what they do.
-
-Use `npm install <pkg>` afterwards to install a package and
-save it as a dependency in the package.json file.
-
-Press ^C at any time to quit.
-package name: (nodejs) Node js
-Sorry, name can only contain URL-friendly characters and name can no longer contain capital letters.
-package name: (nodejs) node js file
-Sorry, name can only contain URL-friendly characters.
-package name: (nodejs) nodejs
+package name: (nodejs) nodejs  (correct pakage name)
 version: (1.0.0)
 description: My first node js file
 entry point: (index.js) main.js
@@ -93,8 +74,11 @@ About to write to C:\Users\bhatt\Desktop\nodejs\package.json:
 }
 
 
-Is this OK? (yes)
+Is this OK? (yes)   (entering yes )
 
-C:\Users\bhatt\Desktop\nodejs>cleat
+C:\Users\bhatt\Desktop\nodejs>clear
 'cleat' is not recognized as an internal or external command,
 operable program or batch file.
+
+
+//Open file in vs codes
