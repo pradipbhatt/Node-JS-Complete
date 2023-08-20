@@ -1,0 +1,100 @@
+Microsoft Windows [Version 10.0.22621.2134]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\bhatt>node
+Welcome to Node.js v18.14.2.
+Type ".help" for more information.
+> console.log("hey");
+hey
+undefined
+> const a=10;
+undefined
+> a
+10
+> const b=100;
+undefined
+> b
+100
+> a+b
+110
+> a*b
+1000
+> ccccccccccccccc
+> cls
+Uncaught ReferenceError: cls is not defined
+>
+(To exit, press Ctrl+C again or Ctrl+D or type .exit)
+> .exit
+
+C:\Users\bhatt>cd desktop
+
+C:\Users\bhatt\Desktop>mkdir nodejs
+
+C:\Users\bhatt\Desktop>cd nodejs
+
+C:\Users\bhatt\Desktop\nodejs>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (nodejs) npm WARN init canceled
+
+C:\Users\bhatt\Desktop\nodejs>npn init
+'npn' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\bhatt\Desktop\nodejs>cd nodejs
+The system cannot find the path specified.
+
+C:\Users\bhatt\Desktop\nodejs>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (nodejs) Node js
+Sorry, name can only contain URL-friendly characters and name can no longer contain capital letters.
+package name: (nodejs) node js file
+Sorry, name can only contain URL-friendly characters.
+package name: (nodejs) nodejs
+version: (1.0.0)
+description: My first node js file
+entry point: (index.js) main.js
+test command:
+git repository:
+keywords:
+author: Pradip Bhatt
+license: (ISC) Apache
+Sorry, license should be a valid SPDX license expression (without "LicenseRef"), "UNLICENSED", or "SEE LICENSE IN <filename>" and license is similar to the valid expression "Apache-2.0".
+license: (ISC) MIT
+About to write to C:\Users\bhatt\Desktop\nodejs\package.json:
+
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "My first node js file",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pradip Bhatt",
+  "license": "MIT"
+}
+
+
+Is this OK? (yes)
+
+C:\Users\bhatt\Desktop\nodejs>cleat
+'cleat' is not recognized as an internal or external command,
+operable program or batch file.
