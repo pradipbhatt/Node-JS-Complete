@@ -9,11 +9,13 @@
 console.log(__dirname); //gives path of current directory
 console.log(__filename); //gives path of current file
 //require is used to import module
-var main=require("./Object.js");   //importing module of object.js
 
-var pradip=require("./Anonymous.js");
-
-
+var main= require('./pradip.js');  //file require
+var pradip= require ('./Anonomous.js');
 
 
-//buffer is used to store temporary data
+
+// BUffer i sused to store temporary value during working
+
+
+console.log(pradip.name);
